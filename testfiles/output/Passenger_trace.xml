@@ -1,0 +1,1499 @@
+<DTRulesTrace>
+	<loadData>
+		<process>
+			<Session>
+				<ticket>
+					<createEntity name='ticket' id=''>
+						<passengers>
+							<passenger>
+								<createEntity name='passenger' id=''>
+									<age>
+										<def entity='/passenger 100008 createEntity ' name='age'>4</def>
+										<message>   /age &quot;4&quot; def</message>
+									</age>
+									<full_name>
+										<def entity='/passenger 100008 createEntity ' name='full_name'>&quot;Raja&quot;</def>
+										<message>   /full_name &quot;Raja&quot; def</message>
+									</full_name>
+									<gender>
+										<def entity='/passenger 100008 createEntity ' name='gender'>&quot;M&quot;</def>
+										<message>   /gender &quot;M&quot; def</message>
+									</gender>
+								</createEntity>
+							</passenger>
+							<passenger>
+								<createEntity name='passenger' id=''>
+									<age>
+										<def entity='/passenger 100011 createEntity ' name='age'>5</def>
+										<message>   /age &quot;5&quot; def</message>
+									</age>
+									<full_name>
+										<def entity='/passenger 100011 createEntity ' name='full_name'>&quot;Neema&quot;</def>
+										<message>   /full_name &quot;Neema&quot; def</message>
+									</full_name>
+									<gender>
+										<def entity='/passenger 100011 createEntity ' name='gender'>&quot;F&quot;</def>
+										<message>   /gender &quot;F&quot; def</message>
+									</gender>
+								</createEntity>
+							</passenger>
+							<passenger>
+								<createEntity name='passenger' id=''>
+									<age>
+										<def entity='/passenger 100014 createEntity ' name='age'>4</def>
+										<message>   /age &quot;4&quot; def</message>
+									</age>
+									<full_name>
+										<def entity='/passenger 100014 createEntity ' name='full_name'>&quot;Akash&quot;</def>
+										<message>   /full_name &quot;Akash&quot; def</message>
+									</full_name>
+									<gender>
+										<def entity='/passenger 100014 createEntity ' name='gender'>&quot;M&quot;</def>
+										<message>   /gender &quot;M&quot; def</message>
+									</gender>
+								</createEntity>
+							</passenger>
+							<passenger>
+								<createEntity name='passenger' id=''>
+									<age>
+										<def entity='/passenger 100017 createEntity ' name='age'>7</def>
+										<message>   /age &quot;7&quot; def</message>
+									</age>
+									<full_name>
+										<def entity='/passenger 100017 createEntity ' name='full_name'>&quot;Krishnamoorthy&quot;</def>
+										<message>   /full_name &quot;Krishnamoorthy&quot; def</message>
+									</full_name>
+									<gender>
+										<def entity='/passenger 100017 createEntity ' name='gender'>&quot;M&quot;</def>
+										<message>   /gender &quot;M&quot; def</message>
+									</gender>
+								</createEntity>
+							</passenger>
+							<passenger>
+								<createEntity name='passenger' id=''>
+									<age>
+										<def entity='/passenger 100020 createEntity ' name='age'>2</def>
+										<message>   /age &quot;2&quot; def</message>
+									</age>
+									<full_name>
+										<def entity='/passenger 100020 createEntity ' name='full_name'>&quot;Premkumar&quot;</def>
+										<message>   /full_name &quot;Premkumar&quot; def</message>
+									</full_name>
+									<gender>
+										<def entity='/passenger 100020 createEntity ' name='gender'>&quot;M&quot;</def>
+										<message>   /gender &quot;M&quot; def</message>
+									</gender>
+								</createEntity>
+							</passenger>
+							<passenger>
+								<createEntity name='passenger' id=''>
+									<age>
+										<def entity='/passenger 100023 createEntity ' name='age'>11</def>
+										<message>   /age &quot;11&quot; def</message>
+									</age>
+									<full_name>
+										<def entity='/passenger 100023 createEntity ' name='full_name'>&quot;Flora&quot;</def>
+										<message>   /full_name &quot;Flora&quot; def</message>
+									</full_name>
+									<gender>
+										<def entity='/passenger 100023 createEntity ' name='gender'>&quot;F&quot;</def>
+										<message>   /gender &quot;F&quot; def</message>
+									</gender>
+								</createEntity>
+							</passenger>
+							<passenger>
+								<createEntity name='passenger' id=''>
+									<age>
+										<def entity='/passenger 100026 createEntity ' name='age'>10</def>
+										<message>   /age &quot;10&quot; def</message>
+									</age>
+									<full_name>
+										<def entity='/passenger 100026 createEntity ' name='full_name'>&quot;Manivannan&quot;</def>
+										<message>   /full_name &quot;Manivannan&quot; def</message>
+									</full_name>
+									<gender>
+										<def entity='/passenger 100026 createEntity ' name='gender'>&quot;M&quot;</def>
+										<message>   /gender &quot;M&quot; def</message>
+									</gender>
+								</createEntity>
+							</passenger>
+							<passenger>
+								<createEntity name='passenger' id=''>
+									<age>
+										<def entity='/passenger 100029 createEntity ' name='age'>3</def>
+										<message>   /age &quot;3&quot; def</message>
+									</age>
+									<full_name>
+										<def entity='/passenger 100029 createEntity ' name='full_name'>&quot;Ramkumar&quot;</def>
+										<message>   /full_name &quot;Ramkumar&quot; def</message>
+									</full_name>
+									<gender>
+										<def entity='/passenger 100029 createEntity ' name='gender'>&quot;M&quot;</def>
+										<message>   /gender &quot;M&quot; def</message>
+									</gender>
+								</createEntity>
+							</passenger>
+							<passenger>
+								<createEntity name='passenger' id=''>
+									<age>
+										<def entity='/passenger 100032 createEntity ' name='age'>8</def>
+										<message>   /age &quot;8&quot; def</message>
+									</age>
+									<full_name>
+										<def entity='/passenger 100032 createEntity ' name='full_name'>&quot;Archana&quot;</def>
+										<message>   /full_name &quot;Archana&quot; def</message>
+									</full_name>
+									<gender>
+										<def entity='/passenger 100032 createEntity ' name='gender'>&quot;F&quot;</def>
+										<message>   /gender &quot;F&quot; def</message>
+									</gender>
+								</createEntity>
+							</passenger>
+						</passengers>
+					</createEntity>
+				</ticket>
+			</Session>
+		</process>
+	</loadData>
+	<decisiontable name='TicketBooking'>
+		<setup></setup>
+		<entity_stack>
+			<entity id='1'>primities</entity>
+			<entity id='2'>decisiontables</entity>
+			<entity id='100001'>passenger</entity>
+			<entity id='100003'>session</entity>
+			<entity id='100005'>ticket</entity>
+		</entity_stack>
+		<initialActions></initialActions>
+		<Condition n='1'>
+			<Formal>booktickets == true</Formal>
+			<Postfix>booktickets true beq</Postfix>
+			<execute>
+				<datapush attribs='true'></datapush>
+				<datapush attribs='true'></datapush>
+				<datapop>true</datapop>
+				<datapop>true</datapop>
+				<datapush attribs='true'></datapush>
+				<datapop>true</datapop>
+			</execute>
+			<result v='Y'></result>
+		</Condition>
+		<column n='1 '>
+			<action n='1'>
+				<formal>Set ticket_price = 400.00</formal>
+				<datapush attribs='400.0'></datapush>
+				<datapop>400.0</datapop>
+				<datapush attribs='400.0'></datapush>
+				<datapush attribs='/ticket_price'></datapush>
+				<datapop>ticket_price</datapop>
+				<datapop>400.0</datapop>
+				<def entity='/ticket 100005 createEntity ' name='ticket_price'>400.0</def>
+			</action>
+			<action n='2'>
+				<formal>Set senior_citizen_discount_cnt = 40.00</formal>
+				<datapush attribs='40.0'></datapush>
+				<datapop>40.0</datapop>
+				<datapush attribs='40.0'></datapush>
+				<datapush attribs='/senior_citizen_discount_cnt'></datapush>
+				<datapop>senior_citizen_discount_cnt</datapop>
+				<datapop>40.0</datapop>
+				<def entity='/session 100003 createEntity ' name='senior_citizen_discount_cnt'>40.0</def>
+			</action>
+			<action n='3'>
+				<formal>Set child_passenger_discount_pct = 50.00</formal>
+				<datapush attribs='50.0'></datapush>
+				<datapop>50.0</datapop>
+				<datapush attribs='50.0'></datapush>
+				<datapush attribs='/child_passenger_discount_pct'></datapush>
+				<datapop>child_passenger_discount_pct</datapop>
+				<datapop>50.0</datapop>
+				<def entity='/session 100003 createEntity ' name='child_passenger_discount_pct'>50.0</def>
+			</action>
+			<action n='4'>
+				<formal>perform reservation</formal>
+				<decisiontable name='reservation'>
+					<context execute='{ { { /reservation executeTable  } ticket_price ticket_price child_passenger_discount_pct fmul 100.0 fdiv fsub  cvr allocate execute deallocate pop } ticket_price ticket_price senior_citizen_discount_cnt fmul 100.0 fdiv fsub  cvr allocate execute deallocate pop } dup passengers forall pop'>
+						<formal>for all passengers</formal>
+						<formal>local double senior_ctz_ticket_price = ticket_price - ((ticket_price * senior_citizen_discount_cnt )/ 100.0)</formal>
+						<formal>local double child_passenger_ticket_price =  ticket_price - ((ticket_price * child_passenger_discount_pct )/ 100.0)</formal>
+						<setup>
+							<datapush attribs='{{{/reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop } ticket_price ticket_price senior_citizen_discount_cnt f* 100.0 fdiv f- cvr allocate execute deallocate pop }'></datapush>
+							<datapop>{ { { reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop } ticket_price ticket_price senior_citizen_discount_cnt f* 100.0 fdiv f- cvr allocate execute deallocate pop }</datapop>
+							<datapush attribs='{{{/reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop } ticket_price ticket_price senior_citizen_discount_cnt f* 100.0 fdiv f- cvr allocate execute deallocate pop }'></datapush>
+							<datapush attribs='{{{/reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop } ticket_price ticket_price senior_citizen_discount_cnt f* 100.0 fdiv f- cvr allocate execute deallocate pop }'></datapush>
+							<datapush attribs='[/passenger 100008 createEntity  /passenger 100011 createEntity  /passenger 100014 createEntity  /passenger 100017 createEntity  /passenger 100020 createEntity  /passenger 100023 createEntity  /passenger 100026 createEntity  /passenger 100029 createEntity  /passenger 100032 createEntity  ]'></datapush>
+							<datapop>[ passenger passenger passenger passenger passenger passenger passenger passenger passenger ]</datapop>
+							<datapop>{ { { reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop } ticket_price ticket_price senior_citizen_discount_cnt f* 100.0 fdiv f- cvr allocate execute deallocate pop }</datapop>
+							<datapush attribs='{{/reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='40.0'></datapush>
+							<datapop>40.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='16000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>16000.0</datapop>
+							<datapush attribs='160.0'></datapush>
+							<datapop>160.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<allocate value='240.0'></allocate>
+							<datapop>{ { reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }</datapop>
+							<datapush attribs='{/reservation executetable }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='50.0'></datapush>
+							<datapop>50.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='20000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>20000.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<allocate value='200.0'></allocate>
+							<datapop>{ reservation executetable }</datapop>
+							<datapush attribs='/reservation'></datapush>
+							<datapop>reservation</datapop>
+						</setup>
+						<entity_stack>
+							<entity id='1'>primities</entity>
+							<entity id='2'>decisiontables</entity>
+							<entity id='100001'>passenger</entity>
+							<entity id='100003'>session</entity>
+							<entity id='100005'>ticket</entity>
+							<entity id='100008'>passenger</entity>
+						</entity_stack>
+						<initialActions></initialActions>
+						<Condition n='1'>
+							<Formal>passenger.age &lt; 5</Formal>
+							<Postfix>passenger.age 5 &lt;</Postfix>
+							<execute>
+								<datapush attribs='4'></datapush>
+								<datapush attribs='5'></datapush>
+								<datapop>5</datapop>
+								<datapop>4</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+							</execute>
+							<result v='Y'></result>
+						</Condition>
+						<column n='1 '>
+							<action n='2'>
+								<formal>Set passenger_cnt = passenger_cnt + 1</formal>
+								<datapush attribs='0'></datapush>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<datapop>0</datapop>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<datapush attribs='1'></datapush>
+								<datapush attribs='/passenger_cnt'></datapush>
+								<datapop>passenger_cnt</datapop>
+								<datapop>1</datapop>
+								<def entity='/ticket 100005 createEntity ' name='passenger_cnt'>1</def>
+							</action>
+							<action n='7'>
+								<formal>Set adult_flag = adult_flag or passenger.age &gt; 18</formal>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='{pop passenger.age 18 &gt; }'></datapush>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+								<datapop>{ pop passenger.age 18 &gt; }</datapop>
+								<datapop>false</datapop>
+								<datapush attribs='4'></datapush>
+								<datapush attribs='18'></datapush>
+								<datapop>18</datapop>
+								<datapop>4</datapop>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='/adult_flag'></datapush>
+								<datapop>adult_flag</datapop>
+								<datapop>false</datapop>
+								<def entity='/ticket 100005 createEntity ' name='adult_flag'>false</def>
+							</action>
+						</column>
+						<setup>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='{{/reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='40.0'></datapush>
+							<datapop>40.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='16000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>16000.0</datapop>
+							<datapush attribs='160.0'></datapush>
+							<datapop>160.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<allocate value='240.0'></allocate>
+							<datapop>{ { reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }</datapop>
+							<datapush attribs='{/reservation executetable }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='50.0'></datapush>
+							<datapop>50.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='20000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>20000.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<allocate value='200.0'></allocate>
+							<datapop>{ reservation executetable }</datapop>
+							<datapush attribs='/reservation'></datapush>
+							<datapop>reservation</datapop>
+						</setup>
+						<entity_stack>
+							<entity id='1'>primities</entity>
+							<entity id='2'>decisiontables</entity>
+							<entity id='100001'>passenger</entity>
+							<entity id='100003'>session</entity>
+							<entity id='100005'>ticket</entity>
+							<entity id='100011'>passenger</entity>
+						</entity_stack>
+						<initialActions></initialActions>
+						<Condition n='1'>
+							<Formal>passenger.age &lt; 5</Formal>
+							<Postfix>passenger.age 5 &lt;</Postfix>
+							<execute>
+								<datapush attribs='5'></datapush>
+								<datapush attribs='5'></datapush>
+								<datapop>5</datapop>
+								<datapop>5</datapop>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+							</execute>
+							<result v='N'></result>
+						</Condition>
+						<Condition n='2'>
+							<Formal>passenger.age &lt; 12</Formal>
+							<Postfix>passenger.age 12 &lt;</Postfix>
+							<execute>
+								<datapush attribs='5'></datapush>
+								<datapush attribs='12'></datapush>
+								<datapop>12</datapop>
+								<datapop>5</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+							</execute>
+							<result v='Y'></result>
+						</Condition>
+						<column n='2 '>
+							<action n='1'>
+								<formal>Set alloted_seat = alloted_seat + 1</formal>
+								<datapush attribs='0'></datapush>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<datapop>0</datapop>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<datapush attribs='1'></datapush>
+								<datapush attribs='/alloted_seat'></datapush>
+								<datapop>alloted_seat</datapop>
+								<datapop>1</datapop>
+								<def entity='/ticket 100005 createEntity ' name='alloted_seat'>1</def>
+							</action>
+							<action n='2'>
+								<formal>Set passenger_cnt = passenger_cnt + 1</formal>
+								<datapush attribs='1'></datapush>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<datapop>1</datapop>
+								<datapush attribs='2'></datapush>
+								<datapop>2</datapop>
+								<datapush attribs='2'></datapush>
+								<datapush attribs='/passenger_cnt'></datapush>
+								<datapop>passenger_cnt</datapop>
+								<datapop>2</datapop>
+								<def entity='/ticket 100005 createEntity ' name='passenger_cnt'>2</def>
+							</action>
+							<action n='4'>
+								<formal>Set passenger.price = child_passenger_ticket_price</formal>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<local_fetch index='1' value='200.0'></local_fetch>
+								<datapush attribs='200.0'></datapush>
+								<datapop>200.0</datapop>
+								<datapush attribs='200.0'></datapush>
+								<datapush attribs='/passenger.price'></datapush>
+								<datapop>passenger.price</datapop>
+								<datapop>200.0</datapop>
+								<def entity='/passenger 100011 createEntity ' name='passenger.price'>200.0</def>
+							</action>
+							<action n='6'>
+								<formal>Set total_ticket_price = total_ticket_price + passenger.price</formal>
+								<datapush attribs='0.0'></datapush>
+								<datapush attribs='200.0'></datapush>
+								<datapop>200.0</datapop>
+								<datapop>0.0</datapop>
+								<datapush attribs='200.0'></datapush>
+								<datapop>200.0</datapop>
+								<datapush attribs='200.0'></datapush>
+								<datapush attribs='/total_ticket_price'></datapush>
+								<datapop>total_ticket_price</datapop>
+								<datapop>200.0</datapop>
+								<def entity='/ticket 100005 createEntity ' name='total_ticket_price'>200.0</def>
+							</action>
+							<action n='7'>
+								<formal>Set adult_flag = adult_flag or passenger.age &gt; 18</formal>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='{pop passenger.age 18 &gt; }'></datapush>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+								<datapop>{ pop passenger.age 18 &gt; }</datapop>
+								<datapop>false</datapop>
+								<datapush attribs='5'></datapush>
+								<datapush attribs='18'></datapush>
+								<datapop>18</datapop>
+								<datapop>5</datapop>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='/adult_flag'></datapush>
+								<datapop>adult_flag</datapop>
+								<datapop>false</datapop>
+								<def entity='/ticket 100005 createEntity ' name='adult_flag'>false</def>
+							</action>
+						</column>
+						<setup>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='{{/reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='40.0'></datapush>
+							<datapop>40.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='16000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>16000.0</datapop>
+							<datapush attribs='160.0'></datapush>
+							<datapop>160.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<allocate value='240.0'></allocate>
+							<datapop>{ { reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }</datapop>
+							<datapush attribs='{/reservation executetable }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='50.0'></datapush>
+							<datapop>50.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='20000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>20000.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<allocate value='200.0'></allocate>
+							<datapop>{ reservation executetable }</datapop>
+							<datapush attribs='/reservation'></datapush>
+							<datapop>reservation</datapop>
+						</setup>
+						<entity_stack>
+							<entity id='1'>primities</entity>
+							<entity id='2'>decisiontables</entity>
+							<entity id='100001'>passenger</entity>
+							<entity id='100003'>session</entity>
+							<entity id='100005'>ticket</entity>
+							<entity id='100014'>passenger</entity>
+						</entity_stack>
+						<initialActions></initialActions>
+						<Condition n='1'>
+							<Formal>passenger.age &lt; 5</Formal>
+							<Postfix>passenger.age 5 &lt;</Postfix>
+							<execute>
+								<datapush attribs='4'></datapush>
+								<datapush attribs='5'></datapush>
+								<datapop>5</datapop>
+								<datapop>4</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+							</execute>
+							<result v='Y'></result>
+						</Condition>
+						<column n='1 '>
+							<action n='2'>
+								<formal>Set passenger_cnt = passenger_cnt + 1</formal>
+								<datapush attribs='2'></datapush>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<datapop>2</datapop>
+								<datapush attribs='3'></datapush>
+								<datapop>3</datapop>
+								<datapush attribs='3'></datapush>
+								<datapush attribs='/passenger_cnt'></datapush>
+								<datapop>passenger_cnt</datapop>
+								<datapop>3</datapop>
+								<def entity='/ticket 100005 createEntity ' name='passenger_cnt'>3</def>
+							</action>
+							<action n='7'>
+								<formal>Set adult_flag = adult_flag or passenger.age &gt; 18</formal>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='{pop passenger.age 18 &gt; }'></datapush>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+								<datapop>{ pop passenger.age 18 &gt; }</datapop>
+								<datapop>false</datapop>
+								<datapush attribs='4'></datapush>
+								<datapush attribs='18'></datapush>
+								<datapop>18</datapop>
+								<datapop>4</datapop>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='/adult_flag'></datapush>
+								<datapop>adult_flag</datapop>
+								<datapop>false</datapop>
+								<def entity='/ticket 100005 createEntity ' name='adult_flag'>false</def>
+							</action>
+						</column>
+						<setup>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='{{/reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='40.0'></datapush>
+							<datapop>40.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='16000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>16000.0</datapop>
+							<datapush attribs='160.0'></datapush>
+							<datapop>160.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<allocate value='240.0'></allocate>
+							<datapop>{ { reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }</datapop>
+							<datapush attribs='{/reservation executetable }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='50.0'></datapush>
+							<datapop>50.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='20000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>20000.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<allocate value='200.0'></allocate>
+							<datapop>{ reservation executetable }</datapop>
+							<datapush attribs='/reservation'></datapush>
+							<datapop>reservation</datapop>
+						</setup>
+						<entity_stack>
+							<entity id='1'>primities</entity>
+							<entity id='2'>decisiontables</entity>
+							<entity id='100001'>passenger</entity>
+							<entity id='100003'>session</entity>
+							<entity id='100005'>ticket</entity>
+							<entity id='100017'>passenger</entity>
+						</entity_stack>
+						<initialActions></initialActions>
+						<Condition n='1'>
+							<Formal>passenger.age &lt; 5</Formal>
+							<Postfix>passenger.age 5 &lt;</Postfix>
+							<execute>
+								<datapush attribs='7'></datapush>
+								<datapush attribs='5'></datapush>
+								<datapop>5</datapop>
+								<datapop>7</datapop>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+							</execute>
+							<result v='N'></result>
+						</Condition>
+						<Condition n='2'>
+							<Formal>passenger.age &lt; 12</Formal>
+							<Postfix>passenger.age 12 &lt;</Postfix>
+							<execute>
+								<datapush attribs='7'></datapush>
+								<datapush attribs='12'></datapush>
+								<datapop>12</datapop>
+								<datapop>7</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+							</execute>
+							<result v='Y'></result>
+						</Condition>
+						<column n='2 '>
+							<action n='1'>
+								<formal>Set alloted_seat = alloted_seat + 1</formal>
+								<datapush attribs='1'></datapush>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<datapop>1</datapop>
+								<datapush attribs='2'></datapush>
+								<datapop>2</datapop>
+								<datapush attribs='2'></datapush>
+								<datapush attribs='/alloted_seat'></datapush>
+								<datapop>alloted_seat</datapop>
+								<datapop>2</datapop>
+								<def entity='/ticket 100005 createEntity ' name='alloted_seat'>2</def>
+							</action>
+							<action n='2'>
+								<formal>Set passenger_cnt = passenger_cnt + 1</formal>
+								<datapush attribs='3'></datapush>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<datapop>3</datapop>
+								<datapush attribs='4'></datapush>
+								<datapop>4</datapop>
+								<datapush attribs='4'></datapush>
+								<datapush attribs='/passenger_cnt'></datapush>
+								<datapop>passenger_cnt</datapop>
+								<datapop>4</datapop>
+								<def entity='/ticket 100005 createEntity ' name='passenger_cnt'>4</def>
+							</action>
+							<action n='4'>
+								<formal>Set passenger.price = child_passenger_ticket_price</formal>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<local_fetch index='1' value='200.0'></local_fetch>
+								<datapush attribs='200.0'></datapush>
+								<datapop>200.0</datapop>
+								<datapush attribs='200.0'></datapush>
+								<datapush attribs='/passenger.price'></datapush>
+								<datapop>passenger.price</datapop>
+								<datapop>200.0</datapop>
+								<def entity='/passenger 100017 createEntity ' name='passenger.price'>200.0</def>
+							</action>
+							<action n='6'>
+								<formal>Set total_ticket_price = total_ticket_price + passenger.price</formal>
+								<datapush attribs='200.0'></datapush>
+								<datapush attribs='200.0'></datapush>
+								<datapop>200.0</datapop>
+								<datapop>200.0</datapop>
+								<datapush attribs='400.0'></datapush>
+								<datapop>400.0</datapop>
+								<datapush attribs='400.0'></datapush>
+								<datapush attribs='/total_ticket_price'></datapush>
+								<datapop>total_ticket_price</datapop>
+								<datapop>400.0</datapop>
+								<def entity='/ticket 100005 createEntity ' name='total_ticket_price'>400.0</def>
+							</action>
+							<action n='7'>
+								<formal>Set adult_flag = adult_flag or passenger.age &gt; 18</formal>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='{pop passenger.age 18 &gt; }'></datapush>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+								<datapop>{ pop passenger.age 18 &gt; }</datapop>
+								<datapop>false</datapop>
+								<datapush attribs='7'></datapush>
+								<datapush attribs='18'></datapush>
+								<datapop>18</datapop>
+								<datapop>7</datapop>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='/adult_flag'></datapush>
+								<datapop>adult_flag</datapop>
+								<datapop>false</datapop>
+								<def entity='/ticket 100005 createEntity ' name='adult_flag'>false</def>
+							</action>
+						</column>
+						<setup>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='{{/reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='40.0'></datapush>
+							<datapop>40.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='16000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>16000.0</datapop>
+							<datapush attribs='160.0'></datapush>
+							<datapop>160.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<allocate value='240.0'></allocate>
+							<datapop>{ { reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }</datapop>
+							<datapush attribs='{/reservation executetable }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='50.0'></datapush>
+							<datapop>50.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='20000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>20000.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<allocate value='200.0'></allocate>
+							<datapop>{ reservation executetable }</datapop>
+							<datapush attribs='/reservation'></datapush>
+							<datapop>reservation</datapop>
+						</setup>
+						<entity_stack>
+							<entity id='1'>primities</entity>
+							<entity id='2'>decisiontables</entity>
+							<entity id='100001'>passenger</entity>
+							<entity id='100003'>session</entity>
+							<entity id='100005'>ticket</entity>
+							<entity id='100020'>passenger</entity>
+						</entity_stack>
+						<initialActions></initialActions>
+						<Condition n='1'>
+							<Formal>passenger.age &lt; 5</Formal>
+							<Postfix>passenger.age 5 &lt;</Postfix>
+							<execute>
+								<datapush attribs='2'></datapush>
+								<datapush attribs='5'></datapush>
+								<datapop>5</datapop>
+								<datapop>2</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+							</execute>
+							<result v='Y'></result>
+						</Condition>
+						<column n='1 '>
+							<action n='2'>
+								<formal>Set passenger_cnt = passenger_cnt + 1</formal>
+								<datapush attribs='4'></datapush>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<datapop>4</datapop>
+								<datapush attribs='5'></datapush>
+								<datapop>5</datapop>
+								<datapush attribs='5'></datapush>
+								<datapush attribs='/passenger_cnt'></datapush>
+								<datapop>passenger_cnt</datapop>
+								<datapop>5</datapop>
+								<def entity='/ticket 100005 createEntity ' name='passenger_cnt'>5</def>
+							</action>
+							<action n='7'>
+								<formal>Set adult_flag = adult_flag or passenger.age &gt; 18</formal>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='{pop passenger.age 18 &gt; }'></datapush>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+								<datapop>{ pop passenger.age 18 &gt; }</datapop>
+								<datapop>false</datapop>
+								<datapush attribs='2'></datapush>
+								<datapush attribs='18'></datapush>
+								<datapop>18</datapop>
+								<datapop>2</datapop>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='/adult_flag'></datapush>
+								<datapop>adult_flag</datapop>
+								<datapop>false</datapop>
+								<def entity='/ticket 100005 createEntity ' name='adult_flag'>false</def>
+							</action>
+						</column>
+						<setup>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='{{/reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='40.0'></datapush>
+							<datapop>40.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='16000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>16000.0</datapop>
+							<datapush attribs='160.0'></datapush>
+							<datapop>160.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<allocate value='240.0'></allocate>
+							<datapop>{ { reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }</datapop>
+							<datapush attribs='{/reservation executetable }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='50.0'></datapush>
+							<datapop>50.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='20000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>20000.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<allocate value='200.0'></allocate>
+							<datapop>{ reservation executetable }</datapop>
+							<datapush attribs='/reservation'></datapush>
+							<datapop>reservation</datapop>
+						</setup>
+						<entity_stack>
+							<entity id='1'>primities</entity>
+							<entity id='2'>decisiontables</entity>
+							<entity id='100001'>passenger</entity>
+							<entity id='100003'>session</entity>
+							<entity id='100005'>ticket</entity>
+							<entity id='100023'>passenger</entity>
+						</entity_stack>
+						<initialActions></initialActions>
+						<Condition n='1'>
+							<Formal>passenger.age &lt; 5</Formal>
+							<Postfix>passenger.age 5 &lt;</Postfix>
+							<execute>
+								<datapush attribs='11'></datapush>
+								<datapush attribs='5'></datapush>
+								<datapop>5</datapop>
+								<datapop>11</datapop>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+							</execute>
+							<result v='N'></result>
+						</Condition>
+						<Condition n='2'>
+							<Formal>passenger.age &lt; 12</Formal>
+							<Postfix>passenger.age 12 &lt;</Postfix>
+							<execute>
+								<datapush attribs='11'></datapush>
+								<datapush attribs='12'></datapush>
+								<datapop>12</datapop>
+								<datapop>11</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+							</execute>
+							<result v='Y'></result>
+						</Condition>
+						<column n='2 '>
+							<action n='1'>
+								<formal>Set alloted_seat = alloted_seat + 1</formal>
+								<datapush attribs='2'></datapush>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<datapop>2</datapop>
+								<datapush attribs='3'></datapush>
+								<datapop>3</datapop>
+								<datapush attribs='3'></datapush>
+								<datapush attribs='/alloted_seat'></datapush>
+								<datapop>alloted_seat</datapop>
+								<datapop>3</datapop>
+								<def entity='/ticket 100005 createEntity ' name='alloted_seat'>3</def>
+							</action>
+							<action n='2'>
+								<formal>Set passenger_cnt = passenger_cnt + 1</formal>
+								<datapush attribs='5'></datapush>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<datapop>5</datapop>
+								<datapush attribs='6'></datapush>
+								<datapop>6</datapop>
+								<datapush attribs='6'></datapush>
+								<datapush attribs='/passenger_cnt'></datapush>
+								<datapop>passenger_cnt</datapop>
+								<datapop>6</datapop>
+								<def entity='/ticket 100005 createEntity ' name='passenger_cnt'>6</def>
+							</action>
+							<action n='4'>
+								<formal>Set passenger.price = child_passenger_ticket_price</formal>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<local_fetch index='1' value='200.0'></local_fetch>
+								<datapush attribs='200.0'></datapush>
+								<datapop>200.0</datapop>
+								<datapush attribs='200.0'></datapush>
+								<datapush attribs='/passenger.price'></datapush>
+								<datapop>passenger.price</datapop>
+								<datapop>200.0</datapop>
+								<def entity='/passenger 100023 createEntity ' name='passenger.price'>200.0</def>
+							</action>
+							<action n='6'>
+								<formal>Set total_ticket_price = total_ticket_price + passenger.price</formal>
+								<datapush attribs='400.0'></datapush>
+								<datapush attribs='200.0'></datapush>
+								<datapop>200.0</datapop>
+								<datapop>400.0</datapop>
+								<datapush attribs='600.0'></datapush>
+								<datapop>600.0</datapop>
+								<datapush attribs='600.0'></datapush>
+								<datapush attribs='/total_ticket_price'></datapush>
+								<datapop>total_ticket_price</datapop>
+								<datapop>600.0</datapop>
+								<def entity='/ticket 100005 createEntity ' name='total_ticket_price'>600.0</def>
+							</action>
+							<action n='7'>
+								<formal>Set adult_flag = adult_flag or passenger.age &gt; 18</formal>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='{pop passenger.age 18 &gt; }'></datapush>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+								<datapop>{ pop passenger.age 18 &gt; }</datapop>
+								<datapop>false</datapop>
+								<datapush attribs='11'></datapush>
+								<datapush attribs='18'></datapush>
+								<datapop>18</datapop>
+								<datapop>11</datapop>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='/adult_flag'></datapush>
+								<datapop>adult_flag</datapop>
+								<datapop>false</datapop>
+								<def entity='/ticket 100005 createEntity ' name='adult_flag'>false</def>
+							</action>
+						</column>
+						<setup>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='{{/reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='40.0'></datapush>
+							<datapop>40.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='16000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>16000.0</datapop>
+							<datapush attribs='160.0'></datapush>
+							<datapop>160.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<allocate value='240.0'></allocate>
+							<datapop>{ { reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }</datapop>
+							<datapush attribs='{/reservation executetable }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='50.0'></datapush>
+							<datapop>50.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='20000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>20000.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<allocate value='200.0'></allocate>
+							<datapop>{ reservation executetable }</datapop>
+							<datapush attribs='/reservation'></datapush>
+							<datapop>reservation</datapop>
+						</setup>
+						<entity_stack>
+							<entity id='1'>primities</entity>
+							<entity id='2'>decisiontables</entity>
+							<entity id='100001'>passenger</entity>
+							<entity id='100003'>session</entity>
+							<entity id='100005'>ticket</entity>
+							<entity id='100026'>passenger</entity>
+						</entity_stack>
+						<initialActions></initialActions>
+						<Condition n='1'>
+							<Formal>passenger.age &lt; 5</Formal>
+							<Postfix>passenger.age 5 &lt;</Postfix>
+							<execute>
+								<datapush attribs='10'></datapush>
+								<datapush attribs='5'></datapush>
+								<datapop>5</datapop>
+								<datapop>10</datapop>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+							</execute>
+							<result v='N'></result>
+						</Condition>
+						<Condition n='2'>
+							<Formal>passenger.age &lt; 12</Formal>
+							<Postfix>passenger.age 12 &lt;</Postfix>
+							<execute>
+								<datapush attribs='10'></datapush>
+								<datapush attribs='12'></datapush>
+								<datapop>12</datapop>
+								<datapop>10</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+							</execute>
+							<result v='Y'></result>
+						</Condition>
+						<column n='2 '>
+							<action n='1'>
+								<formal>Set alloted_seat = alloted_seat + 1</formal>
+								<datapush attribs='3'></datapush>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<datapop>3</datapop>
+								<datapush attribs='4'></datapush>
+								<datapop>4</datapop>
+								<datapush attribs='4'></datapush>
+								<datapush attribs='/alloted_seat'></datapush>
+								<datapop>alloted_seat</datapop>
+								<datapop>4</datapop>
+								<def entity='/ticket 100005 createEntity ' name='alloted_seat'>4</def>
+							</action>
+							<action n='2'>
+								<formal>Set passenger_cnt = passenger_cnt + 1</formal>
+								<datapush attribs='6'></datapush>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<datapop>6</datapop>
+								<datapush attribs='7'></datapush>
+								<datapop>7</datapop>
+								<datapush attribs='7'></datapush>
+								<datapush attribs='/passenger_cnt'></datapush>
+								<datapop>passenger_cnt</datapop>
+								<datapop>7</datapop>
+								<def entity='/ticket 100005 createEntity ' name='passenger_cnt'>7</def>
+							</action>
+							<action n='4'>
+								<formal>Set passenger.price = child_passenger_ticket_price</formal>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<local_fetch index='1' value='200.0'></local_fetch>
+								<datapush attribs='200.0'></datapush>
+								<datapop>200.0</datapop>
+								<datapush attribs='200.0'></datapush>
+								<datapush attribs='/passenger.price'></datapush>
+								<datapop>passenger.price</datapop>
+								<datapop>200.0</datapop>
+								<def entity='/passenger 100026 createEntity ' name='passenger.price'>200.0</def>
+							</action>
+							<action n='6'>
+								<formal>Set total_ticket_price = total_ticket_price + passenger.price</formal>
+								<datapush attribs='600.0'></datapush>
+								<datapush attribs='200.0'></datapush>
+								<datapop>200.0</datapop>
+								<datapop>600.0</datapop>
+								<datapush attribs='800.0'></datapush>
+								<datapop>800.0</datapop>
+								<datapush attribs='800.0'></datapush>
+								<datapush attribs='/total_ticket_price'></datapush>
+								<datapop>total_ticket_price</datapop>
+								<datapop>800.0</datapop>
+								<def entity='/ticket 100005 createEntity ' name='total_ticket_price'>800.0</def>
+							</action>
+							<action n='7'>
+								<formal>Set adult_flag = adult_flag or passenger.age &gt; 18</formal>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='{pop passenger.age 18 &gt; }'></datapush>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+								<datapop>{ pop passenger.age 18 &gt; }</datapop>
+								<datapop>false</datapop>
+								<datapush attribs='10'></datapush>
+								<datapush attribs='18'></datapush>
+								<datapop>18</datapop>
+								<datapop>10</datapop>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='/adult_flag'></datapush>
+								<datapop>adult_flag</datapop>
+								<datapop>false</datapop>
+								<def entity='/ticket 100005 createEntity ' name='adult_flag'>false</def>
+							</action>
+						</column>
+						<setup>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='{{/reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='40.0'></datapush>
+							<datapop>40.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='16000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>16000.0</datapop>
+							<datapush attribs='160.0'></datapush>
+							<datapop>160.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<allocate value='240.0'></allocate>
+							<datapop>{ { reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }</datapop>
+							<datapush attribs='{/reservation executetable }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='50.0'></datapush>
+							<datapop>50.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='20000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>20000.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<allocate value='200.0'></allocate>
+							<datapop>{ reservation executetable }</datapop>
+							<datapush attribs='/reservation'></datapush>
+							<datapop>reservation</datapop>
+						</setup>
+						<entity_stack>
+							<entity id='1'>primities</entity>
+							<entity id='2'>decisiontables</entity>
+							<entity id='100001'>passenger</entity>
+							<entity id='100003'>session</entity>
+							<entity id='100005'>ticket</entity>
+							<entity id='100029'>passenger</entity>
+						</entity_stack>
+						<initialActions></initialActions>
+						<Condition n='1'>
+							<Formal>passenger.age &lt; 5</Formal>
+							<Postfix>passenger.age 5 &lt;</Postfix>
+							<execute>
+								<datapush attribs='3'></datapush>
+								<datapush attribs='5'></datapush>
+								<datapop>5</datapop>
+								<datapop>3</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+							</execute>
+							<result v='Y'></result>
+						</Condition>
+						<column n='1 '>
+							<action n='2'>
+								<formal>Set passenger_cnt = passenger_cnt + 1</formal>
+								<datapush attribs='7'></datapush>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<datapop>7</datapop>
+								<datapush attribs='8'></datapush>
+								<datapop>8</datapop>
+								<datapush attribs='8'></datapush>
+								<datapush attribs='/passenger_cnt'></datapush>
+								<datapop>passenger_cnt</datapop>
+								<datapop>8</datapop>
+								<def entity='/ticket 100005 createEntity ' name='passenger_cnt'>8</def>
+							</action>
+							<action n='7'>
+								<formal>Set adult_flag = adult_flag or passenger.age &gt; 18</formal>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='{pop passenger.age 18 &gt; }'></datapush>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+								<datapop>{ pop passenger.age 18 &gt; }</datapop>
+								<datapop>false</datapop>
+								<datapush attribs='3'></datapush>
+								<datapush attribs='18'></datapush>
+								<datapop>18</datapop>
+								<datapop>3</datapop>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='/adult_flag'></datapush>
+								<datapop>adult_flag</datapop>
+								<datapop>false</datapop>
+								<def entity='/ticket 100005 createEntity ' name='adult_flag'>false</def>
+							</action>
+						</column>
+						<setup>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='{{/reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='40.0'></datapush>
+							<datapop>40.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='16000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>16000.0</datapop>
+							<datapush attribs='160.0'></datapush>
+							<datapop>160.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<allocate value='240.0'></allocate>
+							<datapop>{ { reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop }</datapop>
+							<datapush attribs='{/reservation executetable }'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='400.0'></datapush>
+							<datapush attribs='50.0'></datapush>
+							<datapop>50.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='20000.0'></datapush>
+							<datapush attribs='100.0'></datapush>
+							<datapop>100.0</datapop>
+							<datapop>20000.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapop>400.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<allocate value='200.0'></allocate>
+							<datapop>{ reservation executetable }</datapop>
+							<datapush attribs='/reservation'></datapush>
+							<datapop>reservation</datapop>
+						</setup>
+						<entity_stack>
+							<entity id='1'>primities</entity>
+							<entity id='2'>decisiontables</entity>
+							<entity id='100001'>passenger</entity>
+							<entity id='100003'>session</entity>
+							<entity id='100005'>ticket</entity>
+							<entity id='100032'>passenger</entity>
+						</entity_stack>
+						<initialActions></initialActions>
+						<Condition n='1'>
+							<Formal>passenger.age &lt; 5</Formal>
+							<Postfix>passenger.age 5 &lt;</Postfix>
+							<execute>
+								<datapush attribs='8'></datapush>
+								<datapush attribs='5'></datapush>
+								<datapop>5</datapop>
+								<datapop>8</datapop>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+							</execute>
+							<result v='N'></result>
+						</Condition>
+						<Condition n='2'>
+							<Formal>passenger.age &lt; 12</Formal>
+							<Postfix>passenger.age 12 &lt;</Postfix>
+							<execute>
+								<datapush attribs='8'></datapush>
+								<datapush attribs='12'></datapush>
+								<datapop>12</datapop>
+								<datapop>8</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+							</execute>
+							<result v='Y'></result>
+						</Condition>
+						<column n='2 '>
+							<action n='1'>
+								<formal>Set alloted_seat = alloted_seat + 1</formal>
+								<datapush attribs='4'></datapush>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<datapop>4</datapop>
+								<datapush attribs='5'></datapush>
+								<datapop>5</datapop>
+								<datapush attribs='5'></datapush>
+								<datapush attribs='/alloted_seat'></datapush>
+								<datapop>alloted_seat</datapop>
+								<datapop>5</datapop>
+								<def entity='/ticket 100005 createEntity ' name='alloted_seat'>5</def>
+							</action>
+							<action n='2'>
+								<formal>Set passenger_cnt = passenger_cnt + 1</formal>
+								<datapush attribs='8'></datapush>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<datapop>8</datapop>
+								<datapush attribs='9'></datapush>
+								<datapop>9</datapop>
+								<datapush attribs='9'></datapush>
+								<datapush attribs='/passenger_cnt'></datapush>
+								<datapop>passenger_cnt</datapop>
+								<datapop>9</datapop>
+								<def entity='/ticket 100005 createEntity ' name='passenger_cnt'>9</def>
+							</action>
+							<action n='4'>
+								<formal>Set passenger.price = child_passenger_ticket_price</formal>
+								<datapush attribs='1'></datapush>
+								<datapop>1</datapop>
+								<local_fetch index='1' value='200.0'></local_fetch>
+								<datapush attribs='200.0'></datapush>
+								<datapop>200.0</datapop>
+								<datapush attribs='200.0'></datapush>
+								<datapush attribs='/passenger.price'></datapush>
+								<datapop>passenger.price</datapop>
+								<datapop>200.0</datapop>
+								<def entity='/passenger 100032 createEntity ' name='passenger.price'>200.0</def>
+							</action>
+							<action n='6'>
+								<formal>Set total_ticket_price = total_ticket_price + passenger.price</formal>
+								<datapush attribs='800.0'></datapush>
+								<datapush attribs='200.0'></datapush>
+								<datapop>200.0</datapop>
+								<datapop>800.0</datapop>
+								<datapush attribs='1000.0'></datapush>
+								<datapop>1000.0</datapop>
+								<datapush attribs='1000.0'></datapush>
+								<datapush attribs='/total_ticket_price'></datapush>
+								<datapop>total_ticket_price</datapop>
+								<datapop>1000.0</datapop>
+								<def entity='/ticket 100005 createEntity ' name='total_ticket_price'>1000.0</def>
+							</action>
+							<action n='7'>
+								<formal>Set adult_flag = adult_flag or passenger.age &gt; 18</formal>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='{pop passenger.age 18 &gt; }'></datapush>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='true'></datapush>
+								<datapop>true</datapop>
+								<datapop>{ pop passenger.age 18 &gt; }</datapop>
+								<datapop>false</datapop>
+								<datapush attribs='8'></datapush>
+								<datapush attribs='18'></datapush>
+								<datapop>18</datapop>
+								<datapop>8</datapop>
+								<datapush attribs='false'></datapush>
+								<datapop>false</datapop>
+								<datapush attribs='false'></datapush>
+								<datapush attribs='/adult_flag'></datapush>
+								<datapop>adult_flag</datapop>
+								<datapop>false</datapop>
+								<def entity='/ticket 100005 createEntity ' name='adult_flag'>false</def>
+							</action>
+						</column>
+						<setup>
+							<datapush attribs='200.0'></datapush>
+							<datapop>200.0</datapop>
+							<datapush attribs='240.0'></datapush>
+							<datapop>240.0</datapop>
+							<datapop>{ { { reservation executetable } ticket_price ticket_price child_passenger_discount_pct f* 100.0 fdiv f- cvr allocate execute deallocate pop } ticket_price ticket_price senior_citizen_discount_cnt f* 100.0 fdiv f- cvr allocate execute deallocate pop }</datapop>
+						</setup>
+					</context>
+				</decisiontable>
+			</action>
+			<action n='5'>
+				<formal>perform additional_charges</formal>
+				<decisiontable name='additional_charges'>
+					<setup></setup>
+					<entity_stack>
+						<entity id='1'>primities</entity>
+						<entity id='2'>decisiontables</entity>
+						<entity id='100001'>passenger</entity>
+						<entity id='100003'>session</entity>
+						<entity id='100005'>ticket</entity>
+					</entity_stack>
+					<initialActions></initialActions>
+					<Condition n='1'>
+						<Formal>adult_flag == true</Formal>
+						<Postfix>adult_flag true beq</Postfix>
+						<execute>
+							<datapush attribs='false'></datapush>
+							<datapush attribs='true'></datapush>
+							<datapop>true</datapop>
+							<datapop>false</datapop>
+							<datapush attribs='false'></datapush>
+							<datapop>false</datapop>
+						</execute>
+						<result v='N'></result>
+					</Condition>
+					<column n='2 '>
+						<action n='4'>
+							<formal>Set booking_reason = &apos;Booking Failed. Need atleast one adult listed in the list of passengers&apos;</formal>
+							<datapush attribs='&quot;Booking Failed. Need atleast one adult listed in the list of passengers&quot;'></datapush>
+							<datapop>Booking Failed. Need atleast one adult listed in the list of passengers</datapop>
+							<datapush attribs='&quot;Booking Failed. Need atleast one adult listed in the list of passengers&quot;'></datapush>
+							<datapush attribs='/booking_reason'></datapush>
+							<datapop>booking_reason</datapop>
+							<datapop>Booking Failed. Need atleast one adult listed in the list of passengers</datapop>
+							<def entity='/ticket 100005 createEntity ' name='booking_reason'>&quot;Booking Failed. Need atleast one adult listed in the list of passengers&quot;</def>
+						</action>
+					</column>
+					<setup></setup>
+				</decisiontable>
+			</action>
+		</column>
+		<setup></setup>
+	</decisiontable>
+</DTRulesTrace>

@@ -1,0 +1,37 @@
+<mapping>
+	<XMLtoEDD>
+		<map>
+			<!--                 -->
+			<!-- Map Attributes  -->
+			<!--                 -->
+			<!--passenger-->
+			<setattribute tag='age' RAttribute='age' enclosure='passenger' type='integer' subtype=''></setattribute>
+			<setattribute tag='full_name' RAttribute='full_name' enclosure='passenger' type='string' subtype=''></setattribute>
+			<setattribute tag='gender' RAttribute='gender' enclosure='passenger' type='string' subtype=''></setattribute>
+			<!--session-->
+			<setattribute tag='ticket' RAttribute='ticket' enclosure='session' type='entity' subtype='ticket'></setattribute>
+			<!--ticket-->
+			<setattribute tag='passengers' RAttribute='passengers' enclosure='ticket' type='array' subtype='passenger'></setattribute>
+			<!--                 -->
+			<!-- Create Entities -->
+			<!--                 -->
+			<createentity entity='passenger' tag='passenger' id='full_name'></createentity>
+			<createentity entity='session' tag='session' id='id'></createentity>
+			<createentity entity='ticket' tag='ticket' id='id'></createentity>
+		</map>
+		<!--                 -->
+		<!-- Entity List     -->
+		<!--                 -->
+		<entities>
+			<entity name='passenger' number='*'></entity>
+			<entity name='session' number='1'></entity>
+			<entity name='ticket' number='1'></entity>
+		</entities>
+		<!--                 -->
+		<!-- Initialization  -->
+		<!--                 -->
+		<initialization>
+			<initialentity entity='passenger' epush='true'></initialentity>
+		</initialization>
+	</XMLtoEDD>
+</mapping>

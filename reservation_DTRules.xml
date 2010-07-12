@@ -1,0 +1,14 @@
+<DTRules>
+
+  <RuleSet name="reservation_Ruleset" source="file"  >
+     <RuleSetFilePath>/xml</RuleSetFilePath>
+     <WorkingDirectory>/temp</WorkingDirectory>
+     
+     <DTExcelFolder>/DecisionTables/</DTExcelFolder>
+     <EDDExcelFile>/edd/edd_reservation.xls</EDDExcelFile>
+	
+     <Entities        name="reservation_edd.xml" />
+     <Decisiontables  name="reservation_dt.xml"  />
+     <Map             name="reservation_map.xml" />
+  </RuleSet>    
+</DTRules>

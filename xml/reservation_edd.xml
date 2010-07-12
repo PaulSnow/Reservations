@@ -1,0 +1,32 @@
+<entity_data_dictionary version='2' xmlns:xs='http://www.w3.org/2001/XMLSchema'>
+	<entity name='passenger' access='rw' comment=''>
+		<field name='age' type='integer' subtype='' access='r' input='request' default_value='0' comment=''></field>
+		<field name='full_name' type='string' subtype='' access='r' input='request' default_value='' comment=''></field>
+		<field name='gender' type='string' subtype='' access='r' input='request' default_value='' comment=''></field>
+		<field name='mapping*key' type='string' subtype='' access='r' input='' default_value='' comment='Mapping Key'></field>
+		<field name='passenger' type='entity' subtype='' access='r' input='' default_value='' comment='Self Reference'></field>
+		<field name='price' type='float' subtype='' access='rw' input='' default_value='0' comment=''></field>
+	</entity>
+	<entity name='session' access='rw' comment=''>
+		<field name='booktickets' type='boolean' subtype='' access='rw' input='' default_value='true' comment=''></field>
+		<field name='child_passenger_discount_pct' type='float' subtype='' access='rw' input='' default_value='0' comment=''></field>
+		<field name='mapping*key' type='string' subtype='' access='r' input='' default_value='' comment='Mapping Key'></field>
+		<field name='senior_citizen_discount_cnt' type='float' subtype='' access='rw' input='' default_value='0' comment=''></field>
+		<field name='session' type='entity' subtype='' access='r' input='' default_value='' comment='Self Reference'></field>
+		<field name='ticket' type='entity' subtype='ticket' access='rw' input='request' default_value='' comment=''></field>
+		<field name='ticket_price' type='float' subtype='' access='rw' input='' default_value='0' comment=''></field>
+	</entity>
+	<entity name='ticket' access='rw' comment=''>
+		<field name='adult_flag' type='boolean' subtype='' access='rw' input='' default_value='false' comment=''></field>
+		<field name='alloted_seat' type='integer' subtype='' access='rw' input='' default_value='0' comment=''></field>
+		<field name='booking_reason' type='string' subtype='' access='rw' input='' default_value='' comment=''></field>
+		<field name='mapping*key' type='string' subtype='' access='r' input='' default_value='' comment='Mapping Key'></field>
+		<field name='passenger_cnt' type='integer' subtype='' access='rw' input='' default_value='0' comment=''></field>
+		<field name='passengers' type='array' subtype='passenger' access='r' input='request' default_value='' comment=''></field>
+		<field name='PRN' type='integer' subtype='' access='rw' input='' default_value='0' comment=''></field>
+		<field name='ticket' type='entity' subtype='' access='r' input='' default_value='' comment='Self Reference'></field>
+		<field name='ticket_price' type='float' subtype='' access='rw' input='' default_value='0' comment=''></field>
+		<field name='total_amount' type='float' subtype='' access='rw' input='' default_value='0' comment=''></field>
+		<field name='total_ticket_price' type='float' subtype='' access='rw' input='' default_value='0' comment=''></field>
+	</entity>
+</entity_data_dictionary>

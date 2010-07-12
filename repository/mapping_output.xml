@@ -1,0 +1,44 @@
+<mapping>
+	<XMLtoEDD>
+		<map>
+			<!--                 -->
+			<!-- Map Attributes  -->
+			<!--                 -->
+			<!--passenger-->
+			<setattribute tag='full_name' RAttribute='full_name' enclosure='passenger' type='string' subtype=''></setattribute>
+			<setattribute tag='price' RAttribute='price' enclosure='passenger' type='float' subtype=''></setattribute>
+			<!--session-->
+			<!--ticket-->
+			<setattribute tag='adult_flag' RAttribute='adult_flag' enclosure='ticket' type='boolean' subtype=''></setattribute>
+			<setattribute tag='alloted_seat' RAttribute='alloted_seat' enclosure='ticket' type='integer' subtype=''></setattribute>
+			<setattribute tag='booking_reason' RAttribute='booking_reason' enclosure='ticket' type='string' subtype=''></setattribute>
+			<setattribute tag='passenger_cnt' RAttribute='passenger_cnt' enclosure='ticket' type='integer' subtype=''></setattribute>
+			<setattribute tag='passengers' RAttribute='passengers' enclosure='ticket' type='array' subtype='passenger'></setattribute>
+			<setattribute tag='PRN' RAttribute='PRN' enclosure='ticket' type='integer' subtype=''></setattribute>
+			<setattribute tag='ticket_price' RAttribute='ticket_price' enclosure='ticket' type='float' subtype=''></setattribute>
+			<setattribute tag='total_amount' RAttribute='total_amount' enclosure='ticket' type='float' subtype=''></setattribute>
+			<setattribute tag='total_ticket_price' RAttribute='total_ticket_price' enclosure='ticket' type='float' subtype=''></setattribute>
+			<!--                 -->
+			<!-- Create Entities -->
+			<!--                 -->
+			<createentity entity='passenger' tag='passenger' id='id'></createentity>
+			<createentity entity='session' tag='session' id='id'></createentity>
+			<createentity entity='ticket' tag='ticket' id='id'></createentity>
+		</map>
+		<!--                 -->
+		<!-- Entity List     -->
+		<!--                 -->
+		<entities>
+			<entity name='passenger' number='*'></entity>
+			<entity name='session' number='*'></entity>
+			<entity name='ticket' number='*'></entity>
+		</entities>
+		<!--                 -->
+		<!-- Initialization  -->
+		<!--                 -->
+		<initialization>
+			<initialentity entity='passenger' epush='true'></initialentity>
+			<initialentity entity='session' epush='true'></initialentity>
+		</initialization>
+	</XMLtoEDD>
+</mapping>

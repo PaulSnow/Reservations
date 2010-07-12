@@ -1,0 +1,133 @@
+<entitystack>
+	<array name='entitystack' id='0'>
+		<entity name='ticket' DTRulesId='100005' id='v1'>
+			<attribute name='total_amount'>0.0</attribute>
+			<passengers>
+				<array name='passengers' id='100006'>
+					<entity name='passenger' DTRulesId='100008' id='v2'>
+						<passenger>
+							<entity name='passenger'>self reference</entity>
+						</passenger>
+						<attribute name='price'>0.0</attribute>
+						<attribute name='age'>4</attribute>
+						<attribute name='mapping*key'>v2</attribute>
+						<attribute name='gender'>M</attribute>
+						<attribute name='full_name'>Raja</attribute>
+					</entity>
+					<entity name='passenger' DTRulesId='100011' id='v3'>
+						<passenger>
+							<entity name='passenger'>self reference</entity>
+						</passenger>
+						<attribute name='price'>0.0</attribute>
+						<attribute name='age'>5</attribute>
+						<attribute name='mapping*key'>v3</attribute>
+						<attribute name='gender'>F</attribute>
+						<attribute name='full_name'>Neema</attribute>
+					</entity>
+					<entity name='passenger' DTRulesId='100014' id='v4'>
+						<passenger>
+							<entity name='passenger'>self reference</entity>
+						</passenger>
+						<attribute name='price'>0.0</attribute>
+						<attribute name='age'>4</attribute>
+						<attribute name='mapping*key'>v4</attribute>
+						<attribute name='gender'>M</attribute>
+						<attribute name='full_name'>Akash</attribute>
+					</entity>
+					<entity name='passenger' DTRulesId='100017' id='v5'>
+						<passenger>
+							<entity name='passenger'>self reference</entity>
+						</passenger>
+						<attribute name='price'>0.0</attribute>
+						<attribute name='age'>7</attribute>
+						<attribute name='mapping*key'>v5</attribute>
+						<attribute name='gender'>M</attribute>
+						<attribute name='full_name'>Krishnamoorthy</attribute>
+					</entity>
+					<entity name='passenger' DTRulesId='100020' id='v6'>
+						<passenger>
+							<entity name='passenger'>self reference</entity>
+						</passenger>
+						<attribute name='price'>0.0</attribute>
+						<attribute name='age'>2</attribute>
+						<attribute name='mapping*key'>v6</attribute>
+						<attribute name='gender'>M</attribute>
+						<attribute name='full_name'>Premkumar</attribute>
+					</entity>
+					<entity name='passenger' DTRulesId='100023' id='v7'>
+						<passenger>
+							<entity name='passenger'>self reference</entity>
+						</passenger>
+						<attribute name='price'>0.0</attribute>
+						<attribute name='age'>11</attribute>
+						<attribute name='mapping*key'>v7</attribute>
+						<attribute name='gender'>F</attribute>
+						<attribute name='full_name'>Flora</attribute>
+					</entity>
+					<entity name='passenger' DTRulesId='100026' id='v8'>
+						<passenger>
+							<entity name='passenger'>self reference</entity>
+						</passenger>
+						<attribute name='price'>0.0</attribute>
+						<attribute name='age'>10</attribute>
+						<attribute name='mapping*key'>v8</attribute>
+						<attribute name='gender'>M</attribute>
+						<attribute name='full_name'>Manivannan</attribute>
+					</entity>
+					<entity name='passenger' DTRulesId='100029' id='v9'>
+						<passenger>
+							<entity name='passenger'>self reference</entity>
+						</passenger>
+						<attribute name='price'>0.0</attribute>
+						<attribute name='age'>3</attribute>
+						<attribute name='mapping*key'>v9</attribute>
+						<attribute name='gender'>M</attribute>
+						<attribute name='full_name'>Ramkumar</attribute>
+					</entity>
+					<entity name='passenger' DTRulesId='100032' id='v10'>
+						<passenger>
+							<entity name='passenger'>self reference</entity>
+						</passenger>
+						<attribute name='price'>0.0</attribute>
+						<attribute name='age'>8</attribute>
+						<attribute name='mapping*key'>v10</attribute>
+						<attribute name='gender'>F</attribute>
+						<attribute name='full_name'>Archana</attribute>
+					</entity>
+				</array>
+			</passengers>
+			<attribute name='ticket_price'>0.0</attribute>
+			<attribute name='adult_flag'>false</attribute>
+			<ticket>
+				<entity name='ticket'>self reference</entity>
+			</ticket>
+			<attribute name='total_ticket_price'>0.0</attribute>
+			<attribute name='passenger_cnt'>0</attribute>
+			<attribute name='mapping*key'>v1</attribute>
+			<attribute name='booking_reason'></attribute>
+			<attribute name='alloted_seat'>0</attribute>
+			<attribute name='PRN'>0</attribute>
+		</entity>
+		<entity name='session' DTRulesId='100003' id=''>
+			<attribute name='senior_citizen_discount_cnt'>0.0</attribute>
+			<attribute name='ticket_price'>0.0</attribute>
+			<attribute name='ticket'></attribute>
+			<session>
+				<entity name='session'>self reference</entity>
+			</session>
+			<attribute name='booktickets'>true</attribute>
+			<attribute name='mapping*key'></attribute>
+			<attribute name='child_passenger_discount_pct'>0.0</attribute>
+		</entity>
+		<entity name='passenger' DTRulesId='100001' id=''>
+			<passenger>
+				<entity name='passenger'>self reference</entity>
+			</passenger>
+			<attribute name='price'>0.0</attribute>
+			<attribute name='age'>0</attribute>
+			<attribute name='mapping*key'></attribute>
+			<attribute name='gender'></attribute>
+			<attribute name='full_name'></attribute>
+		</entity>
+	</array>
+</entitystack>

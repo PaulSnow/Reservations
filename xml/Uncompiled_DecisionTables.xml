@@ -1,0 +1,309 @@
+<decision_tables>
+	<decision_table>
+		<table_name>TicketBooking</table_name>
+		<xls_file>dt_reservation.xls</xls_file>
+		<attribute_fields>
+			<type>FIRST</type>
+			<comments></comments>
+		</attribute_fields>
+		<contexts></contexts>
+		<conditions>
+			<condition_details>
+				<condition_number>1</condition_number>
+				<condition_comment></condition_comment>
+				<condition_requirement></condition_requirement>
+				<condition_description>booktickets == true</condition_description>
+				<condition_column column_number='1' column_value='y'></condition_column>
+				<condition_column column_number='2' column_value='-'></condition_column>
+				<condition_column column_number='3' column_value='-'></condition_column>
+				<condition_column column_number='4' column_value='-'></condition_column>
+				<condition_column column_number='5' column_value='-'></condition_column>
+				<condition_column column_number='6' column_value='-'></condition_column>
+				<condition_column column_number='7' column_value='-'></condition_column>
+				<condition_column column_number='8' column_value='-'></condition_column>
+				<condition_column column_number='9' column_value='-'></condition_column>
+				<condition_column column_number='10' column_value='-'></condition_column>
+				<condition_column column_number='11' column_value='-'></condition_column>
+				<condition_column column_number='12' column_value='-'></condition_column>
+				<condition_column column_number='13' column_value='-'></condition_column>
+				<condition_column column_number='14' column_value='-'></condition_column>
+				<condition_column column_number='15' column_value='-'></condition_column>
+				<condition_column column_number='16' column_value='-'></condition_column>
+			</condition_details>
+		</conditions>
+		<actions>
+			<action_details>
+				<action_number>1</action_number>
+				<action_comment>Set cost of a ticket is Rs. 400/-</action_comment>
+				<initial_action_requirement></initial_action_requirement>
+				<action_description>Set ticket_price = 400.00</action_description>
+				<action_column column_number='1' column_value='x'></action_column>
+			</action_details>
+			<action_details>
+				<action_number>2</action_number>
+				<action_comment>Set Senior citizen discount = 40%</action_comment>
+				<initial_action_requirement></initial_action_requirement>
+				<action_description>Set senior_citizen_discount_cnt = 40.00</action_description>
+				<action_column column_number='1' column_value='x'></action_column>
+			</action_details>
+			<action_details>
+				<action_number>3</action_number>
+				<action_comment>Set child passenger discount = 50%</action_comment>
+				<initial_action_requirement></initial_action_requirement>
+				<action_description>Set child_passenger_discount_pct = 50.00</action_description>
+				<action_column column_number='1' column_value='x'></action_column>
+			</action_details>
+			<action_details>
+				<action_number>4</action_number>
+				<action_comment>Book tickets</action_comment>
+				<initial_action_requirement></initial_action_requirement>
+				<action_description>perform reservation</action_description>
+				<action_column column_number='1' column_value='x'></action_column>
+			</action_details>
+			<action_details>
+				<action_number>5</action_number>
+				<action_comment>Add additional charges</action_comment>
+				<initial_action_requirement></initial_action_requirement>
+				<action_description>perform additional_charges</action_description>
+				<action_column column_number='1' column_value='x'></action_column>
+			</action_details>
+		</actions>
+	</decision_table>
+	<decision_table>
+		<table_name>reservation</table_name>
+		<xls_file>dt_reservation.xls</xls_file>
+		<attribute_fields>
+			<type>FIRST</type>
+			<comments></comments>
+		</attribute_fields>
+		<contexts>
+			<context_details>
+				<context_number>1</context_number>
+				<context_description>for all passengers</context_description>
+			</context_details>
+			<context_details>
+				<context_number>2</context_number>
+				<context_description>local double senior_ctz_ticket_price = ticket_price - ((ticket_price * senior_citizen_discount_cnt )/ 100.0)</context_description>
+			</context_details>
+			<context_details>
+				<context_number>3</context_number>
+				<context_description>local double child_passenger_ticket_price =  ticket_price - ((ticket_price * child_passenger_discount_pct )/ 100.0)</context_description>
+			</context_details>
+		</contexts>
+		<conditions>
+			<condition_details>
+				<condition_number>1</condition_number>
+				<condition_comment>Child passenger below 5 years</condition_comment>
+				<condition_requirement></condition_requirement>
+				<condition_description>passenger.age &lt; 5</condition_description>
+				<condition_column column_number='1' column_value='y'></condition_column>
+				<condition_column column_number='2' column_value='-'></condition_column>
+				<condition_column column_number='3' column_value='-'></condition_column>
+				<condition_column column_number='4' column_value='-'></condition_column>
+				<condition_column column_number='5' column_value='-'></condition_column>
+				<condition_column column_number='6' column_value='-'></condition_column>
+				<condition_column column_number='7' column_value='-'></condition_column>
+				<condition_column column_number='8' column_value='-'></condition_column>
+				<condition_column column_number='9' column_value='-'></condition_column>
+				<condition_column column_number='10' column_value='-'></condition_column>
+				<condition_column column_number='11' column_value='-'></condition_column>
+				<condition_column column_number='12' column_value='-'></condition_column>
+				<condition_column column_number='13' column_value='-'></condition_column>
+				<condition_column column_number='14' column_value='-'></condition_column>
+				<condition_column column_number='15' column_value='-'></condition_column>
+				<condition_column column_number='16' column_value='-'></condition_column>
+			</condition_details>
+			<condition_details>
+				<condition_number>2</condition_number>
+				<condition_comment>Child passenger (between 5 and 11 years)</condition_comment>
+				<condition_requirement></condition_requirement>
+				<condition_description>passenger.age &lt; 12</condition_description>
+				<condition_column column_number='1' column_value='-'></condition_column>
+				<condition_column column_number='2' column_value='y'></condition_column>
+				<condition_column column_number='3' column_value='-'></condition_column>
+				<condition_column column_number='4' column_value='-'></condition_column>
+				<condition_column column_number='5' column_value='-'></condition_column>
+				<condition_column column_number='6' column_value='-'></condition_column>
+				<condition_column column_number='7' column_value='-'></condition_column>
+				<condition_column column_number='8' column_value='-'></condition_column>
+				<condition_column column_number='9' column_value='-'></condition_column>
+				<condition_column column_number='10' column_value='-'></condition_column>
+				<condition_column column_number='11' column_value='-'></condition_column>
+				<condition_column column_number='12' column_value='-'></condition_column>
+				<condition_column column_number='13' column_value='-'></condition_column>
+				<condition_column column_number='14' column_value='-'></condition_column>
+				<condition_column column_number='15' column_value='-'></condition_column>
+				<condition_column column_number='16' column_value='-'></condition_column>
+			</condition_details>
+			<condition_details>
+				<condition_number>3</condition_number>
+				<condition_comment>Passenger is adult (above 12 years and below 60)</condition_comment>
+				<condition_requirement></condition_requirement>
+				<condition_description>passenger.age &lt; 60</condition_description>
+				<condition_column column_number='1' column_value='-'></condition_column>
+				<condition_column column_number='2' column_value='-'></condition_column>
+				<condition_column column_number='3' column_value='y'></condition_column>
+				<condition_column column_number='4' column_value='-'></condition_column>
+				<condition_column column_number='5' column_value='-'></condition_column>
+				<condition_column column_number='6' column_value='-'></condition_column>
+				<condition_column column_number='7' column_value='-'></condition_column>
+				<condition_column column_number='8' column_value='-'></condition_column>
+				<condition_column column_number='9' column_value='-'></condition_column>
+				<condition_column column_number='10' column_value='-'></condition_column>
+				<condition_column column_number='11' column_value='-'></condition_column>
+				<condition_column column_number='12' column_value='-'></condition_column>
+				<condition_column column_number='13' column_value='-'></condition_column>
+				<condition_column column_number='14' column_value='-'></condition_column>
+				<condition_column column_number='15' column_value='-'></condition_column>
+				<condition_column column_number='16' column_value='-'></condition_column>
+			</condition_details>
+			<condition_details>
+				<condition_number>4</condition_number>
+				<condition_comment>Passenger is senior citizen (above 60 years)</condition_comment>
+				<condition_requirement></condition_requirement>
+				<condition_description>passenger.age &gt;= 60</condition_description>
+				<condition_column column_number='1' column_value='-'></condition_column>
+				<condition_column column_number='2' column_value='-'></condition_column>
+				<condition_column column_number='3' column_value='-'></condition_column>
+				<condition_column column_number='4' column_value='y'></condition_column>
+				<condition_column column_number='5' column_value='-'></condition_column>
+				<condition_column column_number='6' column_value='-'></condition_column>
+				<condition_column column_number='7' column_value='-'></condition_column>
+				<condition_column column_number='8' column_value='-'></condition_column>
+				<condition_column column_number='9' column_value='-'></condition_column>
+				<condition_column column_number='10' column_value='-'></condition_column>
+				<condition_column column_number='11' column_value='-'></condition_column>
+				<condition_column column_number='12' column_value='-'></condition_column>
+				<condition_column column_number='13' column_value='-'></condition_column>
+				<condition_column column_number='14' column_value='-'></condition_column>
+				<condition_column column_number='15' column_value='-'></condition_column>
+				<condition_column column_number='16' column_value='-'></condition_column>
+			</condition_details>
+		</conditions>
+		<actions>
+			<action_details>
+				<action_number>1</action_number>
+				<action_comment>Allot seat</action_comment>
+				<initial_action_requirement></initial_action_requirement>
+				<action_description>Set alloted_seat = alloted_seat + 1</action_description>
+				<action_column column_number='2' column_value='x'></action_column>
+				<action_column column_number='3' column_value='x'></action_column>
+				<action_column column_number='4' column_value='x'></action_column>
+			</action_details>
+			<action_details>
+				<action_number>2</action_number>
+				<action_comment>Compute no. of passengers</action_comment>
+				<initial_action_requirement></initial_action_requirement>
+				<action_description>Set passenger_cnt = passenger_cnt + 1</action_description>
+				<action_column column_number='1' column_value='x'></action_column>
+				<action_column column_number='2' column_value='x'></action_column>
+				<action_column column_number='3' column_value='x'></action_column>
+				<action_column column_number='4' column_value='x'></action_column>
+			</action_details>
+			<action_details>
+				<action_number>3</action_number>
+				<action_comment>Set ticket price &quot;ful&quot; for adult passenger</action_comment>
+				<initial_action_requirement></initial_action_requirement>
+				<action_description>Set passenger.price = ticket_price</action_description>
+				<action_column column_number='3' column_value='x'></action_column>
+			</action_details>
+			<action_details>
+				<action_number>4</action_number>
+				<action_comment>Indicate passenger is eligible for &apos;child concession&apos;.Set ticket price for the passenger = 50%</action_comment>
+				<initial_action_requirement></initial_action_requirement>
+				<action_description>Set passenger.price = child_passenger_ticket_price</action_description>
+				<action_column column_number='2' column_value='x'></action_column>
+			</action_details>
+			<action_details>
+				<action_number>5</action_number>
+				<action_comment>Indicate passenger is eligible for senior citizen concession fare, set ticket price for the passenger = ticket price less SC concession</action_comment>
+				<initial_action_requirement></initial_action_requirement>
+				<action_description>Set passenger.price = senior_ctz_ticket_price</action_description>
+				<action_column column_number='4' column_value='x'></action_column>
+			</action_details>
+			<action_details>
+				<action_number>6</action_number>
+				<action_comment>Compute total ticket cost</action_comment>
+				<initial_action_requirement></initial_action_requirement>
+				<action_description>Set total_ticket_price = total_ticket_price + passenger.price</action_description>
+				<action_column column_number='2' column_value='x'></action_column>
+				<action_column column_number='3' column_value='x'></action_column>
+				<action_column column_number='4' column_value='x'></action_column>
+			</action_details>
+			<action_details>
+				<action_number>7</action_number>
+				<action_comment>Set flag to add additional charges</action_comment>
+				<initial_action_requirement></initial_action_requirement>
+				<action_description>Set adult_flag = adult_flag or passenger.age &gt; 18</action_description>
+				<action_column column_number='1' column_value='x'></action_column>
+				<action_column column_number='2' column_value='x'></action_column>
+				<action_column column_number='3' column_value='x'></action_column>
+				<action_column column_number='4' column_value='x'></action_column>
+			</action_details>
+		</actions>
+	</decision_table>
+	<decision_table>
+		<table_name>additional_charges</table_name>
+		<xls_file>dt_reservation.xls</xls_file>
+		<attribute_fields>
+			<type>FIRST</type>
+			<comments></comments>
+		</attribute_fields>
+		<contexts></contexts>
+		<conditions>
+			<condition_details>
+				<condition_number>1</condition_number>
+				<condition_comment>Check whether group includes adult passenger</condition_comment>
+				<condition_requirement></condition_requirement>
+				<condition_description>adult_flag == true</condition_description>
+				<condition_column column_number='1' column_value='y'></condition_column>
+				<condition_column column_number='2' column_value='n'></condition_column>
+				<condition_column column_number='3' column_value='-'></condition_column>
+				<condition_column column_number='4' column_value='-'></condition_column>
+				<condition_column column_number='5' column_value='-'></condition_column>
+				<condition_column column_number='6' column_value='-'></condition_column>
+				<condition_column column_number='7' column_value='-'></condition_column>
+				<condition_column column_number='8' column_value='-'></condition_column>
+				<condition_column column_number='9' column_value='-'></condition_column>
+				<condition_column column_number='10' column_value='-'></condition_column>
+				<condition_column column_number='11' column_value='-'></condition_column>
+				<condition_column column_number='12' column_value='-'></condition_column>
+				<condition_column column_number='13' column_value='-'></condition_column>
+				<condition_column column_number='14' column_value='-'></condition_column>
+				<condition_column column_number='15' column_value='-'></condition_column>
+				<condition_column column_number='16' column_value='-'></condition_column>
+			</condition_details>
+		</conditions>
+		<actions>
+			<action_details>
+				<action_number>1</action_number>
+				<action_comment>Add reservation charges to total ticket price (Rs. 40/-)</action_comment>
+				<initial_action_requirement></initial_action_requirement>
+				<action_description>Set total_amount = total_ticket_price + 40.00</action_description>
+				<action_column column_number='1' column_value='x'></action_column>
+			</action_details>
+			<action_details>
+				<action_number>2</action_number>
+				<action_comment>Add internet charges to total cost (Rs. 20/-)</action_comment>
+				<initial_action_requirement></initial_action_requirement>
+				<action_description>Set total_amount = total_amount + 20.00</action_description>
+				<action_column column_number='1' column_value='x'></action_column>
+			</action_details>
+			<action_details>
+				<action_number>3</action_number>
+				<action_comment>Allot PRN</action_comment>
+				<initial_action_requirement></initial_action_requirement>
+				<action_description>Set PRN = 1209</action_description>
+				<action_column column_number='1' column_value='x'></action_column>
+			</action_details>
+			<action_details>
+				<action_number>4</action_number>
+				<action_comment>Indicate booking not completed, 
+Set reason = &apos;adult passenger not in the passenger list&apos;</action_comment>
+				<initial_action_requirement></initial_action_requirement>
+				<action_description>Set booking_reason = &apos;Booking Failed. Need atleast one adult listed in the list of passengers&apos;</action_description>
+				<action_column column_number='2' column_value='x'></action_column>
+			</action_details>
+		</actions>
+	</decision_table>
+</decision_tables>
